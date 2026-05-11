@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ozan144144/my-blox-strike-script-aimbot-got-issue-dont-use-it-/main/myscript.lua"))()
