@@ -143,7 +143,7 @@ local function BuildUI()
         b.Text = txt..": "..(Config[cfg] and "ON" or "OFF"); b.TextColor3 = Color3.new(1,1,1); Instance.new("UICorner", b)
         b.MouseButton1Click:Connect(function() Config[cfg] = not Config[cfg]; b.Text = txt..": "..(Config[cfg] and "ON" or "OFF"); b.BackgroundColor3 = Config[cfg] and Color3.fromRGB(0,150,80) or Color3.fromRGB(150,40,40) end)
     end
-    Btn("Aimbot (Calismayabilir)", "Aimbot_Acildi"); Btn("Billboard ESP", "ESP_Acildi"); Btn("Parlama", "Parlama"); Btn("Speed Hack (buda calismayabilir)", "StealthSpeedEnabled"); Btn("Team Check (ACMAYIN ONERMEM)", "TeamCheck (ACMAYIN ONERMEM)")
+    Btn("Aimbot (Calismayabilir)", "Aimbot_Acildi"); Btn("Billboard ESP", "ESP_Enabled"); Btn("Parlama", "Parlama"); Btn("Speed Hack (buda calismayabilir)", "StealthSpeedEnabled"); Btn("Team Check (ACMAYIN ONERMEM)", "TeamCheck (ACMAYIN ONERMEM)")
     return m
 end
 
